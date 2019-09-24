@@ -1,0 +1,64 @@
+/** GENERAL **/
+* {
+  color: #FFF;
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #124E91;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+/** TITLE **/
+.title {
+    margin-bottom: 3em;
+}
+.title h1 {
+    font-size: 2.875em;
+}
+.title h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #FBD000;
+  font-weight: 300;
+}
+.title h2 strong {
+  color: #FBD000;
+  font-weight: 400;
+}
+
+/** LOGO **/
+.logos {
+  margin-bottom: 3em;
+  display: flex;
+}
+.logo {
+  width: 150px;
+}
+.score {
+    font-size: 3.1875em;
+}
+
+/** EVENT **/
+.event h3 {
+    margin-bottom: .5em;
+    font-size: 2.17em;
+}
+.event h1 {
+    font-size: 2.67em;
+}
+.event h2 {
+    font-size: 1.83em;
+}
+
