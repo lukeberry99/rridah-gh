@@ -10,6 +10,7 @@
 
 body {
   background: #124E91;
+  /* max-height: 100vh; */
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  margin-top: 20%;
 }
 
 /** TITLE **/
@@ -53,12 +54,14 @@ body {
 /** EVENT **/
 .event h3 {
     margin-bottom: .5em;
-    font-size: 2.17em;
+    font-size: 1.5em;
 }
 .event h1 {
-    font-size: 2.67em;
+    font-size: 2em;
 }
 .event h2 {
-    font-size: 1.83em;
+    font-size: 1.2em;
 }
 
+/** RESPONSIVE **/
+@media (max-w)
